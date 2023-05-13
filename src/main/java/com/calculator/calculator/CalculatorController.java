@@ -21,9 +21,6 @@ public class CalculatorController {
 
     @GetMapping("/plus")
     public String plus(@RequestParam("num1") int number1, @RequestParam("num2") int number2) {
-//        if ("num1" == "" || "num2" == "") {
-//            return "Ошибка! Неверно введенные значения! Пожалуйста, проверьте!";
-//        }
         return calculateService.plus(number1, number2);
     }
     @GetMapping("/minus")
