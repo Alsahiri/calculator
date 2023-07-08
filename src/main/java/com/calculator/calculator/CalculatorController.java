@@ -1,7 +1,5 @@
 package com.calculator.calculator;
 
-import com.calculator.calculator.exceptions.InvalidDivisionException;
-import com.calculator.calculator.exceptions.InvalidInputException;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
