@@ -1,5 +1,7 @@
 package com.calculator.calculator;
 
+import com.calculator.calculator.exceptions.InvalidDivisionException;
+
 public interface CalculateService {
     String welcome();
 
