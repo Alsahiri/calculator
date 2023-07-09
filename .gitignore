@@ -33,6 +33,4 @@ build/
 .vscode/
 /mvnw
 /mvnw.cmd
-/pom.xml
 /.mvn/
-/src/test/
